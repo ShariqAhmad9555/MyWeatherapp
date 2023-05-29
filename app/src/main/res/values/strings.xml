@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="weathertxt"> Click on Voice Prompt icon and see Weather of your desired Location.</string>
+</resources>

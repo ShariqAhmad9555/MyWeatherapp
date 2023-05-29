@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/city"
+    android:text="London"
+    android:inputType="textCapWords"
+    android:layout_centerHorizontal="true"
+    android:textStyle="bold"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:textSize="@dimen/_35sdp"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:inputType="textCapWords"
+        android:textStyle="bold"
+        android:text="clear sky"
+        android:textSize="@dimen/_20sdp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/temp"
+        android:text="24C"
+        android:inputType="textCapWords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_35sdp"
+        android:textStyle="bold"
+        android:layout_below="@id/desc"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/humidity"
+        android:text="38"
+        android:inputType="textCapWords"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:layout_below="@id/temp"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
